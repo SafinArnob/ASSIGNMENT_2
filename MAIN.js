@@ -5,13 +5,7 @@ function calculateSum(a, b)
 
 function isEVEN(a)
 {
-    if( a%2 === 0)
-    {
-        console.log("TRUE");
-    }
-    else{
-        console.log("FALSE");
-    }
+    return a % 2 === 0;
 }
 
 function findMax(arr)
@@ -53,7 +47,7 @@ function removeDuplicates(arr2)
 
 
 console.log("SUM OF TWO ELEMENT: " + calculateSum(10,10)); 
-isEVEN(7);
+console.log("THIS IS A EVEN NUMBER: " + isEVEN(6) );
 console.log("MAXIMUM NUMBER IS: " + findMax([1,6,3,9,2,10]) )
 console.log("ODD NUMBERS ARRAY IS: " + filterOddNumbers([1,2,3,4,5,6,7,8,9]) )
 console.log("NUMBER OF WORDS IN THE SENTENCE: " + countWords("count the number words in the sentence")); 
